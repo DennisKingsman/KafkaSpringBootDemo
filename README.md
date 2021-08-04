@@ -11,3 +11,6 @@ Start project and use postman to send `post` request to
 ```
 http://localhost:8086/publish?message=Hello
 ```
+Step 2 and 3 described in related repository
+# Related repository
+[KafkaCloudStreamRabbitMq](https://github.com/DennisKingsman/KafkaCloudStreamRabbitMq)
