@@ -11,6 +11,14 @@ Start project and use postman to send `post` request to
 ```
 http://localhost:8086/publish?message=Hello
 ```
-Step 2 and 3 described in related repository
+Step 2 described in related repository   
+
+Step 3  
+Create docker-compose file  
+you will need the next docker images  
+[zookeeper](https://hub.docker.com/r/wurstmeister/zookeeper/)  
+[kafka](https://hub.docker.com/r/wurstmeister/kafka)  
+Start it with `docker-compose up -d`  
+And test it the same way which in Step 1  
 # Related repository
 [KafkaCloudStreamRabbitMq](https://github.com/DennisKingsman/KafkaCloudStreamRabbitMq)
